@@ -1,0 +1,8 @@
+[user]
+	email = elura001@osloskolen.no
+	name = Elias Rissanen Uran
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
